@@ -1,0 +1,28 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Телефонная книга</title>
+	<link rel="stylesheet" href="addressbook.css">
+	<script src="addressbook.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Телефонная книга</h1>
+		</div>
+		<div class="quickadd"><button id="QuickAdd">+ Создать</button></div>
+		<div class="quickaddForm">
+			<label for="fullname">Имя</label><input type="text" id="fullname" class="formFields">
+			<label for="phone">Телефон</label><input type="text" id="phone" class="formFields">
+			<label for="address">Адрес</label><textarea name="address" id="address" cols="30" rows="10" class="formFields"></textarea>
+			<label for="city">Город</label><input type="text" id="city" class="formFields">
+			<label for="email">E-mail</label><input type="text" id="email" class="formFields">
+			<br><br>
+			<button id="Add">Добавить</button><button id="Cancel">Закрыть</button>
+		</div>
+		<div class="addbook">
+		</div>
+	</div>
+</body>
+</html>
